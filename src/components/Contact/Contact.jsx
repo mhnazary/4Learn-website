@@ -1,10 +1,12 @@
+import Navbar from "../Navbar/Navbar";
+
 function Contacts() {
-    return (
-      <>
-        <h1>Welcome to Contacts</h1>
-      </>
-    );
-  }
-  
-  export default Contacts;
-  
+  return (
+    <>
+      <Navbar />
+      <h1>Welcome to Contacts</h1>
+    </>
+  );
+}
+
+export default Contacts;

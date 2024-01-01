@@ -1,13 +1,10 @@
+import { useRoutes } from "react-router-dom";
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
+import { routing } from "./Route";
 
 function App() {
-  return (
-    <div className="App">
-      <Navbar />
-      <h1>Hello 4Learn-Website</h1>
-    </div>
-  );
+  let router = useRoutes(routing);
+  return router;
 }
 
 export default App;

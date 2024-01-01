@@ -1,10 +1,12 @@
+import Navbar from "../Navbar/Navbar";
+
 function Trainers() {
-    return (
-      <>
-        <h1>Welcome to Trainers</h1>
-      </>
-    );
-  }
-  
-  export default Trainers;
-  
+  return (
+    <>
+      <Navbar />
+      <h1>Welcome to Trainers</h1>
+    </>
+  );
+}
+
+export default Trainers;

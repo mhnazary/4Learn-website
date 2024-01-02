@@ -13,6 +13,9 @@ module.exports = {
         "green": "#5fcf80",
 
       },
+      fontWeight: {
+        '500': 500,
+      },
     },
   },
   plugins: [],

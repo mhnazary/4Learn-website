@@ -4,7 +4,7 @@ function Courses() {
   return (
     <>
       <Navbar />
-      <h1>Welcome to Courses</h1>
+      <h1 className=' mt-24'>Welcome to Courses</h1>
     </>
   );
 }

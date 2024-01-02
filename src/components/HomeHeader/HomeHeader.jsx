@@ -1,7 +1,7 @@
 function HomeHeader() {
   return (
     <div>
-      <div className="bg-[url(./assets/images/hero-bg.jpg)] h-[430px] bg-cover">
+      <div className="bg-[url(./assets/images/hero-bg.jpg)] h-[430px] bg-cover ">
         <div className="w-full h-full bg-black inset-0 bg-opacity-40">
         <div className="w-full h-full pl-[72px]  text-white">
           <h1 className="pt-32 font-poppins text-[48px] font-bold leading-[56px]">Learning Today,

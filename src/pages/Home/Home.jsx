@@ -1,8 +1,9 @@
-import HomeHeader from "../../components/HomeHeader/HomeHeader";
+import HomeHeader from "../../components/Home/HomeHeader";
 import HomeInfo from "../../components/About/About";
 import Navbar from "../../components/Navbar/Navbar";
 import AboutNums from "../../components/About/AboutNums";
-import HomeWhy from "../../components/HomeHeader/HomeWhy";
+import HomeWhy from "../../components/Home/HomeWhy";
+import IconTitles from "../../components/Home/IconTitles";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <HomeInfo />
       <AboutNums />
       <HomeWhy />
+      <IconTitles />
       </div>
     </div>
   );

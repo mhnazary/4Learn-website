@@ -1,11 +1,11 @@
-import About from "./components/About/About";
-import Contacts from "./components/Contact/Contact";
-import Courses from "./components/Courses/Courses";
-import Dropdown from "./components/Dropdown/Dropdown";
-import Events from "./components/Events/Events";
-import Home from "./components/Home/Home";
-import Pricing from "./components/Pricing/Pricing";
-import Trainers from "./components/Trainers/Trainers";
+import About from "./pages/About/About";
+import Contacts from "./pages/Contact/Contact";
+import Courses from "./pages/Courses/Courses";
+import Dropdown from "./pages/Dropdown/Dropdown";
+import Events from "./pages/Events/Events";
+import Home from "./pages/Home/Home";
+import Pricing from "./pages/Pricing/Pricing";
+import Trainers from "./pages/Trainers/Trainers";
 
 export let routing = [
   { path: "/", element: <Home /> },

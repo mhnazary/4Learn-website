@@ -4,6 +4,9 @@ import Navbar from "../../components/Navbar/Navbar";
 import AboutNums from "../../components/About/AboutNums";
 import HomeWhy from "../../components/Home/HomeWhy";
 import IconTitles from "../../components/Home/IconTitles";
+import CourseTitle from "../../components/Home/CourseTitle";
+import CouresesCards from "../../components/Home/CoursesCards";
+import Trainers from "../../components/Home/Trainers";
 
 function Home() {
   return (
@@ -16,6 +19,9 @@ function Home() {
       <AboutNums />
       <HomeWhy />
       <IconTitles />
+      <CourseTitle />
+      <CouresesCards />
+      <Trainers />
       </div>
     </div>
   );

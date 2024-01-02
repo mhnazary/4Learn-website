@@ -7,6 +7,7 @@ import IconTitles from "../../components/Home/IconTitles";
 import CourseTitle from "../../components/Home/CourseTitle";
 import CouresesCards from "../../components/Home/CoursesCards";
 import Trainers from "../../components/Home/Trainers";
+import Footer from "../../components/Footer/Footer";
 
 function Home() {
   return (
@@ -22,6 +23,7 @@ function Home() {
       <CourseTitle />
       <CouresesCards />
       <Trainers />
+      <Footer />
       </div>
     </div>
   );

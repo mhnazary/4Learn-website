@@ -5,7 +5,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 function Navbar() {
   return (
     <>
-      <nav className=" flex justify-between fixed top-0 left-0 py-4 px-12 bg-white w-full text-center shadow-sm">
+      <nav className=" flex justify-between fixed top-0 left-0 py-4 px-12 bg-white w-full text-center shadow-sm z-10">
         <h1 className="text-3xl font-bold font-poppins text-green">
           4Learn-App
         </h1>

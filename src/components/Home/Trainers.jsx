@@ -7,9 +7,9 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 
 import Trainer from "./Trainer";
-function Trainers() {
+function Trainerss() {
   return (
-    <div className="flex space-x-[32px] px-14 my-32">
+    <div className="flex space-x-[32px] px-14 my-24">
       <Trainer
         img={Trainer1}
         trainer="Walter White"
@@ -44,4 +44,4 @@ function Trainers() {
   );
 }
 
-export default Trainers;
+export default Trainerss;

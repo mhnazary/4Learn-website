@@ -13,6 +13,12 @@ module.exports = {
         "green": "#5fcf80",
 
       },
+      fontWeight: {
+        '500': 500,
+      },
+      fontWeight: {
+        '600': 600,
+      },
     },
   },
   plugins: [],

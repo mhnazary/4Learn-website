@@ -1,4 +1,4 @@
-import About from "./pages/About/About";
+import { About } from "./pages/About/About";
 import Contacts from "./pages/Contact/Contact";
 import Courses from "./pages/Courses/Courses";
 import Dropdown from "./pages/Dropdown/Dropdown";

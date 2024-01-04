@@ -6,7 +6,7 @@ import HomeWhy from "../../components/Home/HomeWhy";
 import IconTitles from "../../components/Home/IconTitles";
 import CourseTitle from "../../components/Home/CourseTitle";
 import CouresesCards from "../../components/Home/CoursesCards";
-import Trainers from "../../components/Home/Trainers";
+import Trainerss from "../../components/Home/Trainers";
 import Footer from "../../components/Footer/Footer";
 
 function Home() {
@@ -22,7 +22,7 @@ function Home() {
       <IconTitles />
       <CourseTitle />
       <CouresesCards />
-      <Trainers />
+      <Trainerss />
       <Footer />
       </div>
     </div>

@@ -10,7 +10,7 @@ function ContactUs() {
     <>
       <div>
         <div className="w-full flex justify-start items-center px-7 mb-12">
-          <span className="h-12 w-12 bg-[#ecf9f0] text-green text-xl text-center pt-2 rounded-full">
+          <span className="h-12 w-12 bg-[#ecf9f0] text-green text-xl text-center pt-2 rounded-full hover:bg-green hover:text-white">
             <FontAwesomeIcon icon={faLocationDot} />
           </span>
           <div className="ml-4">
@@ -21,7 +21,7 @@ function ContactUs() {
           </div>
         </div>
         <div className="w-full flex justify-start items-center px-6 mb-12">
-          <span className="h-12 w-12 bg-[#ecf9f0] text-green text-xl text-center pt-2 rounded-full">
+          <span className="h-12 w-12 bg-[#ecf9f0] text-green text-xl text-center pt-2 rounded-full hover:bg-green hover:text-white">
             <FontAwesomeIcon icon={faEnvelope} />
           </span>
           <div className="ml-4">
@@ -32,7 +32,7 @@ function ContactUs() {
           </div>
         </div>
         <div className="w-full flex justify-start items-center px-6 mb-12">
-          <span className="h-12 w-12 bg-[#ecf9f0] text-green text-xl text-center pt-2 rounded-full">
+          <span className="h-12 w-12 bg-[#ecf9f0] text-green text-xl text-center pt-2 rounded-full hover:bg-green hover:text-white">
             <FontAwesomeIcon icon={faPhone} />
           </span>
           <div className="ml-4">

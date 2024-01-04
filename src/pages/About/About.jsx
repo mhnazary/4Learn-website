@@ -2,6 +2,7 @@ import HomeInfo from "../../components/About/About";
 import AboutNums from "../../components/About/AboutNums";
 import Navbar from "../../components/Navbar/Navbar";
 import MultipleItems from "../../components/About/Slider.jsx";
+import Footer from "../../components/Footer/Footer.jsx";
 
 function About() {
   return (
@@ -12,6 +13,7 @@ function About() {
         <HomeInfo />
         <AboutNums />
         <MultipleItems />
+        <Footer />
       </div>
     </>
   );

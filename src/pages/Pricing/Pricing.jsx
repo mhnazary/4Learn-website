@@ -1,10 +1,17 @@
+import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
+import Cards from "../../components/Pricing/Cards";
+import { AboutPart } from "../About/About";
 
 function Pricing() {
   return (
     <>
       <Navbar />
-      <h1>Welcome to Pricing</h1>
+      <div className="pt-16">
+        <AboutPart part="Pricing" />
+        <Cards />
+        <Footer />
+      </div>
     </>
   );
 }

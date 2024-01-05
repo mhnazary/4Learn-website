@@ -9,10 +9,10 @@ function Trainer({ img, trainer, category, text, ticon, ficon, iicon, licon }) {
         <p className="italic text-[13] text-gray-600 mb-3">{category}</p>
         <p className="italic text-[14px] text-[#aaaaaa]">{text}</p>
         <div className="flex justify-center my-4 mb-8 text-xl space-x-1 text-[#848282]">
-          <p className=" hover:text-green hover:cursor-pointer">{ticon}</p>
-          <p className=" hover:text-green hover:cursor-pointer">{ficon}</p>
-          <p className=" hover:text-green hover:cursor-pointer">{iicon}</p>
-          <p className=" hover:text-green hover:cursor-pointer">{licon}</p>
+          <p className=" hover:text-green hover:cursor-pointer duration-500">{ticon}</p>
+          <p className=" hover:text-green hover:cursor-pointer duration-500">{ficon}</p>
+          <p className=" hover:text-green hover:cursor-pointer duration-500">{iicon}</p>
+          <p className=" hover:text-green hover:cursor-pointer duration-500">{licon}</p>
         </div>
       </div>
     </div>

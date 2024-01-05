@@ -31,19 +31,19 @@ function Footer() {
               Useful Links
             </h3>
             <ul className="space-y-3 text-[#777777] text-[14px]">
-              <li className="hover:text-green hover:cursor-pointer">
+              <li className="hover:text-green hover:cursor-pointer duration-500">
                 <span className="text-green">➤</span> Home
               </li>
-              <li className="hover:text-green hover:cursor-pointer">
+              <li className="hover:text-green hover:cursor-pointer duration-500">
                 <span className="text-green">➤</span> About us
               </li>
-              <li className="hover:text-green hover:cursor-pointer">
+              <li className="hover:text-green hover:cursor-pointer duration-500">
                 <span className="text-green">➤</span> Services
               </li>
-              <li className="hover:text-green hover:cursor-pointer">
+              <li className="hover:text-green hover:cursor-pointer duration-500">
                 <span className="text-green">➤</span> Terms of service
               </li>
-              <li className="hover:text-green hover:cursor-pointer">
+              <li className="hover:text-green hover:cursor-pointer duration-500">
                 <span className="text-green">➤</span> Privacy policy
               </li>
             </ul>
@@ -53,19 +53,19 @@ function Footer() {
               Our Services
             </h3>
             <ul className="space-y-3 text-[#777777] text-[14px]">
-              <li className="hover:text-green hover:cursor-pointer">
+              <li className="hover:text-green hover:cursor-pointer duration-500">
                 <span className="text-green">➤</span> Web Design
               </li>
-              <li className="hover:text-green hover:cursor-pointer">
+              <li className="hover:text-green hover:cursor-pointer duration-500">
                 <span className="text-green">➤</span> Web Development
               </li>
-              <li className="hover:text-green hover:cursor-pointer">
+              <li className="hover:text-green hover:cursor-pointer duration-500">
                 <span className="text-green">➤</span> Product Management
               </li>
-              <li className="hover:text-green hover:cursor-pointer">
+              <li className="hover:text-green hover:cursor-pointer duration-500">
                 <span className="text-green">➤</span> Marketing
               </li>
-              <li className="hover:text-green hover:cursor-pointer">
+              <li className="hover:text-green hover:cursor-pointer duration-500">
                 <span className="text-green">➤</span> Graphic Design
               </li>
             </ul>
@@ -98,24 +98,24 @@ function Footer() {
             </p>
             <p className="text-[#5e5c5c] text-[14px]">
               Designed by
-              <span className="text-[#5fcf80]"> BootstrapMade</span>
+              <span className="text-[#5fcf80] hover:text-[#6ae18e] duration-700 cursor-pointer font-600"> Hafiz Rasa & Hossain Nazary</span>
             </p>
           </div>
           <div className="flex space-x-3">
             <ul className="flex space-x-1 justify-center items-center">
-              <li className="bg-[#5fcf80] rounded-[50%] h-10 w-10 flex justify-center items-center text-white hover:bg-[#5bc57b] hover:cursor-pointer">
+              <li className="bg-[#5fcf80] rounded-[50%] h-10 w-10 flex justify-center items-center text-white hover:bg-[#409157] hover:cursor-pointer duration-700">
                 <FaTwitter />
               </li>
-              <li className="bg-[#5fcf80] rounded-[50%] h-10 w-10 flex justify-center items-center text-white hover:bg-[#5bc57b] hover:cursor-pointer">
+              <li className="bg-[#5fcf80] rounded-[50%] h-10 w-10 flex justify-center items-center text-white hover:bg-[#409157] hover:cursor-pointer duration-700">
                 <FaFacebook />
               </li>
-              <li className="bg-[#5fcf80] rounded-[50%] h-10 w-10 flex justify-center items-center text-white hover:bg-[#5bc57b] hover:cursor-pointer">
+              <li className="bg-[#5fcf80] rounded-[50%] h-10 w-10 flex justify-center items-center text-white hover:bg-[#409157] hover:cursor-pointer duration-700">
                 <FaInstagram />
               </li>
-              <li className="bg-[#5fcf80] rounded-[50%] h-10 w-10 flex justify-center items-center text-white hover:bg-[#5bc57b] hover:cursor-pointer">
+              <li className="bg-[#5fcf80] rounded-[50%] h-10 w-10 flex justify-center items-center text-white hover:bg-[#409157] hover:cursor-pointer duration-700">
                 <FaSkype />
               </li>
-              <li className="bg-[#5fcf80] rounded-[50%] h-10 w-10 flex justify-center items-center text-white hover:bg-[#5bc57b] hover:cursor-pointer">
+              <li className="bg-[#5fcf80] rounded-[50%] h-10 w-10 flex justify-center items-center text-white hover:bg-[#409157] hover:cursor-pointer duration-700">
                 <FaLinkedin />
               </li>
             </ul>
